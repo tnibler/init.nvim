@@ -19,8 +19,15 @@ Plug 'luochen1990/rainbow'                              " rainbow parenthesis
 Plug 'hzchirs/vim-material'                             " material color themes
 Plug 'gregsexton/MatchTag'                              " highlight matching html tags
 Plug 'Jorengarenar/vim-MvVis'                           " move visual selection
+
+Plug 'camspiers/animate.vim'
+Plug 'camspiers/lens.vim'
 "}}}
 
+
+" Plug 'kyazdani42/nvim-web-devicons'
+" Plug 'romgrk/lib.kom' -- removed! You can remove it from your vimrc
+" Plug 'romgrk/barbar.nvim'
 " ================= Functionalities ================= "{{{
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}         " LSP and more
@@ -79,7 +86,7 @@ set grepprg=rg\ --vimgrep                               " use rg as default grep
 " performance tweaks
 set nocursorline
 set nocursorcolumn
-set scrolljump=5
+set scrolljump=1
 set lazyredraw
 set redrawtime=10000
 set synmaxcol=180
@@ -95,7 +102,7 @@ set shortmess+=c
 set signcolumn=yes
 
 " Themeing
-let g:material_style = 'oceanic'
+let g:material_style = 'palenight'
 colorscheme vim-material
 hi Pmenu guibg='#00010a' guifg=white                    " popup menu colors
 hi Comment gui=italic cterm=italic                      " italic comments
@@ -340,7 +347,7 @@ endfunction
 " ======================== Custom Mappings ====================== "{{{
 
 "" the essentials
-let mapleader=","
+let mapleader=" "
 nnoremap ; :
 nmap \ <leader>q
 map <F6> :Startify <CR>
