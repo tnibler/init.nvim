@@ -365,10 +365,10 @@ map <Enter> o<ESC>
 map <S-Enter> O<ESC>
 
 " use a different register for delete and paste
-nnoremap d "_d
-vnoremap d "_d
-vnoremap p "_dP
-nnoremap x "_x
+" nnoremap d "_d
+" vnoremap d "_d
+" vnoremap p "_dP
+" nnoremap x "_x
 
 " emulate windows copy, cut behavior
 vnoremap <LeftRelease> "+y<LeftRelease>
