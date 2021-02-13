@@ -73,5 +73,8 @@
 
   // other language specific settings
   "html.autoClosingTags": true,
-  "coc.source.ultisnips.filetypes": []
+  "coc.source.ultisnips.filetypes": [],
+
+  "python.formatting.autopep8Path": "/usr/bin/autopep8",
+  "python.linting.pylintPath": "/usr/bin/pylint"
 }
